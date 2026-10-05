@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mustafa Al-Hussein | Full-Stack Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'IBM Plex Sans Arabic',system-ui;background:#08080a;color:#e8e8e8;overflow-x:hidden}
+.mono{font-family:'JetBrains Mono',monospace}
+.bg{position:fixed;inset:0;z-index:-1;background:radial-gradient(600px circle at 0% 0%,#1a1a2e 0%,transparent 50%),radial-gradient(800px circle at 100% 100%,#16213e 0%,transparent 60%),#08080a}
+.nav{max-width:1100px;margin:0 auto;padding:24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:700;letter-spacing:-1px;font-size:20px}
+.logo span{color:#666}
+.status{display:flex;align-items:center;gap:8px;background:#111;border:1px solid #222;padding:6px 14px;border-radius:100px;font-size:12px}
+.dot{width:8px;height:8px;background:#00ff88;border-radius:50%;box-shadow:0 0 10px #00ff88;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+.hero{max-width:1100px;margin:60px auto 0;padding:0 24px;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+@media(max-width:900px){.hero{grid-template-columns:1fr}}
+.h1{font-size:clamp(38px,6vw,72px);line-height:.95;letter-spacing:-3px;font-weight:700}
+.h1 em{font-style:normal;background:linear-gradient(90deg,#fff 30%,#888);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.sub{color:#888;font-size:18px;line-height:1.6;margin-top:20px;max-width:520px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:32px}
+.stat{background:#111;border:1px solid #1e1e1e;border-radius:16px;padding:16px}
+.stat b{font-size:28px;display:block}
+.stat span{color:#666;font-size:12px}
+.card{background:linear-gradient(180deg,#151515,#101010);border:1px solid #222;border-radius:28px;padding:28px;position:relative;overflow:hidden}
+.card:before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,#333,transparent)}
+.tag{font-size:11px;letter-spacing:1px;background:#1c1c1c;border:1px solid #2a2a2a;padding:5px 10px;border-radius:100px;color:#999}
+.project-grid{max-width:1100px;margin:80px auto;padding:0 24px}
+.proj{display:grid;grid-template-columns:1fr 1fr;gap:0;background:#111;border:1px solid #222;border-radius:28px;overflow:hidden;margin-top:24px}
+@media(max-width:900px){.proj{grid-template-columns:1fr}}
+.proj-info{padding:36px}
+.proj-visual{background:#0e0e0e;display:flex;align-items:center;justify-content:center;padding:20px;border-right:1px solid #222}
+@media(max-width:900px){.proj-visual{border-right:0;border-top:1px solid #222}}
+.window{width:100%;background:#161616;border:1px solid #2a2a2a;border-radius:16px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.win-bar{display:flex;gap:6px;padding:12px 16px;border-bottom:1px solid #222}
+.win-dot{width:10px;height:10px;border-radius:50%}
+.btns{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.btn{padding:14px 22px;border-radius:100px;text-decoration:none;font-weight:600;font-size:14px;display:inline-flex;align-items:center;gap:8px;transition:.2s}
+.btn-primary{background:#fff;color:#000}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(255,255,255,.2)}
+.btn-ghost{background:#1a1a1a;color:#fff;border:1px solid #2a2a2a}
+.kpi{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:20px}
+.kpi div{background:#151515;border:1px solid #222;border-radius:12px;padding:12px;font-size:12px;color:#999}
+.kpi div b{color:#fff;font-size:16px;display:block;margin-bottom:2px}
+.footer{max-width:1100px;margin:100px auto 40px;padding:0 24px;display:flex;justify-content:space-between;color:#555;font-size:13px;flex-wrap:wrap;gap:10px}
+a{color:inherit}
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<div class="nav mono">
+<div class="logo">mustafa<span>.sy</span></div>
+<div class="status"><div class="dot"></div> AVAILABLE FOR FREELANCE</div>
+</div>
+
+<div class="hero">
+<div>
+<div class="tag mono">RIHA, IDLIB → REMOTE WORLDWIDE</div>
+<h1 class="h1">أبني <em>أنظمة</em> كاملة،<br>مو بس مواقع.</h1>
+<p class="sub">مطور Full-Stack عمري 20 سنة. شفت العيادات حوالينا لسا على الدفاتر، فبنيت نظام إدارة عيادات ومتجر إلكتروني كامل من الصفر بـ PHP & MySQL.</p>
+<div class="stats mono">
+<div class="stat"><b>100%</b><span>CUSTOM CODE</span></div>
+<div class="stat"><b>12+</b><span>LIVE KPIs</span></div>
+<div class="stat"><b>1</b><span>REAL PROBLEM</span></div>
+</div>
+<div class="btns">
+<a class="btn btn-primary" href="https://beclinic.infy.click" target="_blank">شوف BeClinic لايف ↗</a>
+<a class="btn btn-ghost" href="mailto:mustafa.sy963@gmail.com">تواصل معي</a>
+</div>
+</div>
+
+<div class="card">
+<div class="mono" style="display:flex;justify-content:space-between;color:#666;font-size:11px;margin-bottom:20px"><span>STACK</span><span>2024-2025</span></div>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<span class="tag mono">PHP 8</span><span class="tag mono">MySQL</span><span class="tag mono">JavaScript</span><span class="tag mono">E-Commerce</span><span class="tag mono">QR System</span><span class="tag mono">Admin KPIs</span>
+</div>
+<div style="margin-top:28px;background:#0e0e0e;border:1px solid #1e1e1e;border-radius:16px;padding:16px" class="mono">
+<div style="color:#555;font-size:11px;margin-bottom:12px">beclinic.infy.click / dashboard.php</div>
+<div style="display:flex;gap:8px;margin-bottom:10px"><div style="height:6px;flex:1;background:#222;border-radius:10px;overflow:hidden"><div style="width:78%;height:100%;background:#fff"></div></div><span style="font-size:11px">Revenue</span></div>
+<div style="display:flex;gap:8px;margin-bottom:10px"><div style="height:6px;flex:1;background:#222;border-radius:10px;overflow:hidden"><div style="width:92%;height:100%;background:#00ff88"></div></div><span style="font-size:11px">Orders</span></div>
+<div style="display:flex;gap:8px"><div style="height:6px;flex:1;background:#222;border-radius:10px;overflow:hidden"><div style="width:64%;height:100%;background:#555"></div></div><span style="font-size:11px">Stock</span></div>
+</div>
+<p class="mono" style="color:#666;font-size:12px;margin-top:16px;line-height:1.5">No WordPress. No template. Database, auth, inventory, checkout - built from scratch.</p>
+</div>
+</div>
+
+<div class="project-grid">
+<div class="mono" style="color:#555;font-size:12px;letter-spacing:2px">FEATURED PROJECT — 01</div>
+<div class="proj">
+<div class="proj-info">
+<h2 style="font-size:32px;letter-spacing:-1px">BeClinic</h2>
+<p style="color:#888;margin-top:12px;line-height:1.7">نظام إدارة عيادة أسنان وتجميل. يحل مشكلة حقيقية: الحجز، المتابعة، والبيع كان كله على الورق.</p>
+<div class="kpi mono">
+<div><b>Online Booking</b>حجز مواعيد ومتابعة حالة</div>
+<div><b>E-Store</b>سلة + دفع + مخزون</div>
+<div><b>QR Check-in</b>دخول المرضى بالـ QR</div>
+<div><b>Security</b>مراقبة محاولات الدخول</div>
+</div>
+<div class="btns">
+<a class="btn btn-primary" href="https://beclinic.infy.click" target="_blank">Live Demo ↗</a>
+<a class="btn btn-ghost mono" href="https://github.com/mustafa-sy963" target="_blank">Code on Request</a>
+</div>
+</div>
+<div class="proj-visual">
+<div class="window">
+<div class="win-bar"><div class="win-dot" style="background:#ff5f57"></div><div class="win-dot" style="background:#ffbd2e"></div><div class="win-dot" style="background:#28ca42"></div><div class="mono" style="margin-right:auto;font-size:11px;color:#555">BeClinic Store - Blanx Product - $1</div></div>
+<div style="padding:20px">
+<div style="background:#1e1e1e;height:120px;border-radius:12px;display:flex;align-items:center;justify-content:center;color:#555" class="mono">🛒 STORE PREVIEW</div>
+<div style="display:flex;justify-content:space-between;margin-top:16px;align-items:center"><span style="font-weight:700">Blanx White Shock</span><span class="mono" style="background:#fff;color:#000;padding:4px 10px;border-radius:20px;font-size:12px">$1.00</span></div>
+<div style="margin-top:12px;background:#fff;color:#000;text-align:center;padding:10px;border-radius:10px;font-weight:700;font-size:13px">Add to Cart → Checkout Flow Tested ✓</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer mono">
+<span>© 2025 Mustafa Al-Hussein — Built from Riha, Idlib, SY</span>
+<span><a href="https://github.com/mustafa-sy963">github.com/mustafa-sy963</a> • mustafa.sy963@gmail.com</span>
+</div>
+</body>
+</html>
